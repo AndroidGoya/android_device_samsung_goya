@@ -16,7 +16,7 @@
  
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/goldenve3g/goldenve3g-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/goya/goya-vendor.mk)
 
 PRODUCT_CHARACTERISTICS := tablet
 
