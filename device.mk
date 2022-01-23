@@ -54,8 +54,8 @@ PRODUCT_PACKAGES += \
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
-    device/samsung/goya/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    device/samsung/goya/keylayout/pxa27x-keypad.kl:system/usr/keylayout/pxa27x-keypad.kl
+    device/samsung/goya/keylayouts/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+    device/samsung/goya/keylayouts/pxa27x-keypad.kl:system/usr/keylayout/pxa27x-keypad.kl
 	
 # Permissions
 PRODUCT_COPY_FILES += \
