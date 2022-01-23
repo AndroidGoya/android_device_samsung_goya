@@ -34,7 +34,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Graphics config
 PRODUCT_COPY_FILES += \
-    device/samsung/goya/configs/gfx.cfg:system/etc/gfx.cfg 
+    device/samsung/goya/configs/graphics/gfx.cfg:system/etc/gfx.cfg 
 
 # Rootdir
 PRODUCT_COPY_FILES += \
